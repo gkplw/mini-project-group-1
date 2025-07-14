@@ -1,14 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
 =======
 *{
 >>>>>>> 5f1f99f (Add footer section and styles, include logo image)
+=======
+body{
+>>>>>>> f8b3a26 (Update footer layout and styles, add dropdown menus and social media icons)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* bright-css */
 
@@ -20,6 +25,12 @@ body{
     width: 5vh;
     height: 11vw;
 >>>>>>> 5f1f99f (Add footer section and styles, include logo image)
+=======
+/* bright-css */
+
+.blue-button{
+    background-color: #1374F6;
+>>>>>>> f8b3a26 (Update footer layout and styles, add dropdown menus and social media icons)
     border-radius: 90%;
     rotate: -90deg;
     color: white;
@@ -28,6 +39,9 @@ body{
     justify-content: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f8b3a26 (Update footer layout and styles, add dropdown menus and social media icons)
 
 .circle-button{
     background-color: rgb(19 116 246 / 0.2);
@@ -134,5 +148,8 @@ body{
     }
     
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 5f1f99f (Add footer section and styles, include logo image)
+=======
+>>>>>>> f8b3a26 (Update footer layout and styles, add dropdown menus and social media icons)
