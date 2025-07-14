@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 body{
+=======
+*{
+>>>>>>> 5f1f99f (Add footer section and styles, include logo image)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
 }
 
+<<<<<<< HEAD
 /* bright-css */
 
 .blue-button{
     background-color: #1374F6;
+=======
+.blue-button{
+    background-color: #1374F6;
+    width: 5vh;
+    height: 11vw;
+>>>>>>> 5f1f99f (Add footer section and styles, include logo image)
     border-radius: 90%;
     rotate: -90deg;
     color: white;
@@ -16,6 +27,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .circle-button{
     background-color: rgb(19 116 246 / 0.2);
@@ -122,3 +134,5 @@ body{
     }
     
 }
+=======
+>>>>>>> 5f1f99f (Add footer section and styles, include logo image)
