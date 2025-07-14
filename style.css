@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.blue-button{
+    background-color: #1374F6;
+    width: 5vh;
+    height: 11vw;
+    border-radius: 90%;
+    rotate: -90deg;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
