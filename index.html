@@ -14,18 +14,107 @@
 </head>
 <body>
 
-    
-
-
 <!----แทน ส่วนที่ 1----->
 
+<style>
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+  .bar1, .bar2, .bar3 {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  .change .bar2 {
+    opacity: 0;
+  }
+  .change .bar3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+</style>
 
+<script>
+  function toggleHam(x) {
+    x.classList.toggle("change");
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("hidden");
+  }
+</script>
 
+<!-- Navbar -->
+<nav class="mt-12">
+  <div class="max-w-[1166px] mx-auto px-4">
+    <div class="flex justify-between items-center h-[66px]">
+      <div class="flex items-center h-[69px] relative">
+        <div class="relative mr-4">
+          <a href="#"><img class="w-[69px] h-[69px] z-0" src="/asset/images/Polygon 1.png" alt="Polygon 1" /></a>
+          <a href="#"><img class="w-[69px] h-[69px] z-10 absolute -right-5 top-0" src="/asset/images/Polygon 2.png" alt="Polygon 2" /></a>
+        </div>
+        <h1 class="text-[36px] font-medium relative -right-10">Agencio</h1>
+      </div>
 
+      <!-- Desktop Menu -->
+      <ul class="hidden sm:flex h-[66px] items-center space-x-12">
+        <li><a href="#" class="text-[#1F1E61] text-[16px]">Home</a></li>
+        <li><a href="#" class="text-[#1F1E61] text-[16px]">Category</a></li>
+        <li><a href="#" class="text-[#1F1E61] text-[16px]">Service</a></li>
+        <li><a href="#" class="text-[#1F1E61] text-[16px]">Blog</a></li>
+        <li><a href="#" class="text-[#1F1E61] text-[16px]">Contact</a></li>
+        <li class="bg-[#FDD76E] w-[160px] h-[60px] flex items-center justify-center transition-transform duration-300 hover:scale-105">
+          <a href="#" class="text-[#1F1E61] text-[16px]">Create Account</a>
+        </li>
+      </ul>
 
+      <!-- Hamburger Menu -->
+      <div class="sm:hidden flex flex-col gap-1 cursor-pointer" onclick="toggleHam(this)">
+        <div class="bar1 w-6 h-1 bg-black"></div>
+        <div class="bar2 w-6 h-1 bg-black"></div>
+        <div class="bar3 w-6 h-1 bg-black"></div>
+      </div>
+    </div>
 
+    <!-- Mobile Menu -->
+    <ul id="mobileMenu" class="sm:hidden hidden flex-col items-start space-y-4 mt-4">
+      <li><a href="#" class="text-[#1F1E61] text-[16px] block">Home</a></li>
+      <li><a href="#" class="text-[#1F1E61] text-[16px] block">Category</a></li>
+      <li><a href="#" class="text-[#1F1E61] text-[16px] block">Service</a></li>
+      <li><a href="#" class="text-[#1F1E61] text-[16px] block">Blog</a></li>
+      <li><a href="#" class="text-[#1F1E61] text-[16px] block">Contact</a></li>
+      <li class="bg-[#FDD76E] w-full h-[60px] flex items-center justify-center">
+        <a href="#" class="text-[#1F1E61] text-[16px]">Create Account</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+<!-- Hero Section -->
+<section class="mt-20 min-h-[730px]">
+  <div class="max-w-[1166px] mx-auto flex flex-col sm:flex-row justify-center gap-20 px-4">
 
+    <!-- Left Content -->
+    <section class="w-full sm:w-[770px] pt-[100px]">
+      <p class="text-[#1374f6] text-[20px] font-normal">CREATIVE AGENCY _ </p>
+      <h1 class="text-[#0b0757] text-[48px] font-medium mt-6 leading-tight">
+        We are here to give <br />
+        the best service
+      </h1>
+      <p class="text-[#8480ae] text-[18px] mt-6 leading-relaxed" style="max-width: 700px;">
+        It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.
+      </p>
+      <div class="mt-6 flex items-center flex-wrap gap-4">
+        <a class="inline-block bg-[#1374f6] text-white w-[160px] h-[60px] text-center py-4 rounded transition-transform duration-300 hover:scale-105" href="#">Get Started</a>
+        <img src="asset/images/button.png" alt="Button" class="w-[50px] h-[50px] relative left-3" />
+        <a class="text-[#0b0757] text-[16px] hover:underline" href="#">Watch Video</a>
+      </div>
+    </section>
+
+    <!-- Right Image -->
+    <section class="w-full sm:w-[700px]">
+      <img src="asset/images/Group 5763.png" class="w-full h-full object-contain" alt="Group 5763" />
+    </section>
+  </div>
+</section>
 
 <!----บอล ส่วนที่ 2----->
 <!-- Services Section -->
@@ -123,7 +212,6 @@
         </div>
     </div>
 </section>
-
 
 <!----โกน ส่วนที่ 3----->
 <!-- Price Plan Section -->
@@ -229,7 +317,6 @@
     </div>
   </section>
 
-  
   <!----ไบรท์ ส่วนที่ 4----->
     <footer>
         <div class="flex flex-col items-center justify-evenly gap-5 pt-36 bg-[#F4F7FC]">
