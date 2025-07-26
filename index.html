@@ -327,48 +327,48 @@
                 </div>
                 <input type="text" placeholder="Enter your email address" class="w-80 h-16 p-5 lg:w-96 text-[#0B075733] bg-[#FFFFFF] rounded-full">
                 <button class="cursor-pointer relative ">
-                    <div class="blue-button absolute w-8 h-8 bottom-3 -top-25 left-25 sm:w-10 sm:h-10 sm:bottom-15 sm:left-30 ">V</div>
+                    <label class="blue-button absolute w-8 h-8 bottom-3 -top-25 left-25 sm:w-10 sm:h-10 sm:bottom-15 sm:left-30 ">></label>
                 </button>
             </div>
         </div>
-        <div class="flex flex-col gap-6 p-5 mt-5 w-auto h-auto lg:flex-row lg:gap-24 lg:p-28">
-            <div class="flex flex-col items-start gap-5 lg:max-w-96">
+        <div class="flex flex-col lg:grid lg:lg:grid-cols-[0.3fr_0.6fr] lg:gap-40 gap-6 px-5 py-5 mt-5 w-full h-auto lg:px-10 lg:py-20">
+            <div class="flex flex-col items-start gap-5 lg:ml-28 lg:w-[70%]">
                 <div class="flex flex-row justify-start items-center gap-4">
                     <img src="./asset/images/logo.png" alt="logo" class="w-10 h-10">
                     <h1 class="text-2xl font-medium text-[#181C51]">Agencio</h1>
                 </div>
-                <p class="leading-7 text-[#8480AE]">
+                <p class="leading-8 text-[#8480AE]">
                     Winged moving moveth created for shall and a divide the their
                     days male midst shall hath doesn't won't for. Midst life.Over a great night.
                 </p>
                 <div class="flex flex-row gap-4">
-                    <button class="circle-button cursor-pointer flex items-center justify-center">
+                    <button aria-label="our facebook" class="circle-button cursor-pointer flex items-center justify-center">
                         <img src="./asset/images/fb-logo.png" alt="facebook" class="w-4 h-4">
                     </button>
-                    <button class="circle-button cursor-pointer flex items-center justify-center">
-                        <img src="./asset/images/tw-logo.png" alt="facebook" class="w-4 h-4">
+                    <button aria-label="our twitter" class="circle-button cursor-pointer flex items-center justify-center">
+                        <img src="./asset/images/tw-logo.png" alt="twitter" class="w-4 h-4">
                     </button>
-                    <button class="circle-button cursor-pointer flex items-center justify-center">
-                        <img src="./asset/images/in-logo.png" alt="facebook" class="w-4 h-4">
+                    <button aria-label="our instragram" class="circle-button cursor-pointer flex items-center justify-center">
+                        <img src="./asset/images/in-logo.png" alt="instragram" class="w-4 h-4">
                     </button>
-                    <button class="circle-button cursor-pointer flex items-center justify-center">
-                        <img src="./asset/images/yt-logo.png" alt="facebook" class="w-4 h-4">
+                    <button aria-label="our youtube" class="circle-button cursor-pointer flex items-center justify-center">
+                        <img src="./asset/images/yt-logo.png" alt="youtube" class="w-4 h-4">
                     </button>
                 </div>
             </div>
-            <div class="lg:flex lg:flex-row lg:w-screen">
+            <div class="lg:flex lg:flex-row w-[90%] box-border">
                 <div class="dropdown">
                     <input type="checkbox" id="features-dropdown">
                     <label for="features-dropdown" class="drop-btn">
                         <p class="leading-10 font-bold text-xl text-[#181C51]">Features</p>
                         <i class="fa fa-caret-down" style="font-size:24px"></i>
                     </label>
-                    <div class="dropdown-content lg:flex-col lg:w-auto">
-                        <a href="#" ><p class="text-[#8480AE]">Analytic</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Activity</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Influencer</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Publishing</p></a>
-                    </div>
+                    <ul class="dropdown-content lg:flex-col lg:w-auto">
+                        <li><a href="#" ><p class="text-[#8480AE]">Analytic</p></a></li>
+                        <li><a href="#" ><p class="text-[#8480AE]">Activity</p></a></li>
+                        <li><a href="#" ><p class="text-[#8480AE]">Influencer</p></a></li>
+                        <li><a href="#" ><p class="text-[#8480AE]">Publishing</p></a></li>
+                    </ul>
                 </div>
                 <div class="dropdown">
                     <input type="checkbox" id="about-dropdown">
@@ -376,12 +376,12 @@
                         <p class="leading-10 font-bold text-xl text-[#181C51]">About</p>
                         <i class="fa fa-caret-down" style="font-size:24px"></i>
                     </label>
-                    <div class="dropdown-content lg:w-auto">
-                        <a href="#" ><p class="text-[#8480AE]">Blog</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Pricing</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Company</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Careers</p></a>
-                    </div>
+                    <ul class="dropdown-content lg:w-auto">
+                      <li><a href="#" ><p class="text-[#8480AE]">Blog</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Pricing</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Company</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Careers</p></a></li>
+                    </ul>
                 </div>
                 <div class="dropdown">
                     <input type="checkbox" id="resources-dropdown">
@@ -389,16 +389,16 @@
                         <p class="leading-10 font-bold text-xl text-[#181C51]">Resources</p>
                         <i class="fa fa-caret-down" style="font-size:24px"></i>
                     </label>
-                    <div class="dropdown-content">
-                        <a href="#" ><p class="text-[#8480AE]">Application Security</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Software Policy</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Supply Chain</p></a>
-                        <a href="#" ><p class="text-[#8480AE]">Manage Reputation</p></a>
-                    </div>
+                    <ul class="dropdown-content">
+                      <li><a href="#" ><p class="text-[#8480AE]">Application Security</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Software Policy</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Supply Chain</p></a></li>
+                      <li><a href="#" ><p class="text-[#8480AE]">Manage Reputation</p></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center ">
             <div class="border-solid border-1 border-gray-200 w-[80vw] hidden lg:block"></div>
         </div>
         <p class="text-center lg:hidden text-[#A1A4B1]">Copyright ©2020 Agencio</p>

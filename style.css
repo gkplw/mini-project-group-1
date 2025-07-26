@@ -10,7 +10,6 @@ body{
 .blue-button{
     background-color: #1374F6;
     border-radius: 90%;
-    rotate: -90deg;
     color: white;
     display: flex;
     align-items: center;
